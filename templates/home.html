@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Welcome to WordCounter</h1>
+  <form action="{% url 'count' %}" target="_self">
+    <textarea name="counter"  cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Count">  
+  </form>
+  <a href="{% url 'about'%}">About Us</a>
+</body>
+</html>
